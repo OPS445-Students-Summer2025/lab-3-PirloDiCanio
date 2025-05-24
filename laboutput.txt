@@ -1,0 +1,43 @@
+test_0 (__main__.lab3a.test_0)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for file creation: ./lab3a.py ... ok
+test_1 (__main__.lab3a.test_1)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for errors running: ./lab3a.py ... ok
+test_2 (__main__.lab3a.test_2)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - Test for correct shebang line: ./lab3a.py ... ok
+test_4_function_return_text_value (__main__.lab3a.test_4_function_return_text_value)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - function print_out_text() has correct output ... ok
+test_5_function_return_number_value (__main__.lab3a.test_5_function_return_number_value)
+[Lab 3] - [Investigation 1] - [Part 4] - Functions - function print_out_text() has correct output ... ok
+test_0 (__main__.lab3b.test_0)
+[Lab 3] - [Investigation 2] - [Part 1] - Functions - Test for file creation: ./lab3b.py ... ok
+test_1 (__main__.lab3b.test_1)
+[Lab 3] - [Investigation 2] - [Part 1] - Functions - Test for errors running: ./lab3b.py ... ok
+test_2 (__main__.lab3b.test_2)
+[Lab 3] - [Investigation 2] - [Part 1] - Functions - Test for correct shebang line: ./lab3b.py ... FAIL
+
+======================================================================
+FAIL: test_2 (__main__.lab3b.test_2)
+[Lab 3] - [Investigation 2] - [Part 1] - Functions - Test for correct shebang line: ./lab3b.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/fouwhumiakpo/ops445/lab3/./CheckLab3.py", line 123, in test_2
+    self.assertEqual(first_line.strip(), '#!/usr/bin/env python3', msg=error_output)
+AssertionError: 'import lab3a' != '#!/usr/bin/env python3'
+- import lab3a
++ #!/usr/bin/env python3
+ : your program does not have a shebang line(HINT: what should the first line contain)
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.094s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab3.py
+=================================================================
+    User login name: fouwhumiakpo
+    Linux system name: fouwhumiakpo
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/fouwhumiakpo/ops445/lab3
+    Start at: Sat May 24 01:45:52 2025
+=================================================================

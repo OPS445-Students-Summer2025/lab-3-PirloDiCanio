@@ -1,10 +1,16 @@
-import lab3a
+#!/usr/bin/env python3
 
-text = lab3a.return_text_value()
-print(text)
+def sum_numbers(number1, number2):
+    return str(number1 + number2)
 
-# If you only call return_number_value() by itself, no print will happen:
-# lab3a.return_number_value()
+def subtract_numbers(number1, number2):
+    return str(number1 - number2)
 
-# Correct way:
-print(lab3a.return_number_value())
+def multiply_numbers(number1, number2):
+    return str(number1 * number2)
+
+if __name__ == '__main__':
+    print(sum_numbers(10, 5))
+    print(subtract_numbers(10, 5))
+    print(multiply_numbers(10, 5))
+
